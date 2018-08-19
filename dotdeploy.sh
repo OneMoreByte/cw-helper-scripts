@@ -8,7 +8,7 @@ else
 fi
 
 # Then get some keys for us to use for git
-wget https://s3.us-east-2.amazonaws.com/jsck-deploy-keys/dfiledep -O $HOME/.ssh/dotfilepull
+wget https://gist.githubusercontent.com/OneMoreByte/4f421559b4817f7798ccbdd4dd0002fb/raw/3a8709949d8b8358312ce3950a9dc0be69e85cd6/dfiledep -O $HOME/.ssh/dotfilepull
 
 chmod 700 $HOME/.ssh/dotfilepull
 
